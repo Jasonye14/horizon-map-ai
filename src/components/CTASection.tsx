@@ -9,7 +9,7 @@ const CTASection = () => {
     <section className="py-20 relative overflow-hidden">
       {/* Background Elements */}
       <div className="absolute inset-0 -z-10">
-        <div className="absolute inset-0 bg-gradient-to-br from-horizon-600/90 to-horizon-800/90 opacity-90"></div>
+        <div className="absolute inset-0 bg-gradient-to-br from-zinc-600/90 to-zinc-800/90 opacity-90"></div>
         <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-white/20 to-transparent"></div>
         <div className="absolute bottom-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-white/20 to-transparent"></div>
       </div>
@@ -30,7 +30,7 @@ const CTASection = () => {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button size="lg" className="rounded-full px-8 bg-white text-horizon-700 hover:bg-white/90">
+            <Button size="lg" className="rounded-full px-8 bg-white text-zinc-700 hover:bg-white/90">
               <span>Try Free for 14 Days</span>
               <ChevronRight size={18} className="ml-2" />
             </Button>
